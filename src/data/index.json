@@ -4,47 +4,47 @@
       "id": "1",
       "src": "./img/product-chain-1.png",
       "title": "Front-End",
-      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspenmdisse varius eim in eros elementum tristique"
+      "description": "I am proficient in HTML, CSS, and JavaScript, with extensive experience in modern frameworks and libraries like React.js Saas and Bootstrap to impose responsive web design."
     },
     {
       "id": "2",
       "src": "./img/tag-1.png",
       "title": "Back-End",
-      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspenmdisse varius eim in eros elementum tristique"
+      "description": "A particular focus on Node.js, PHP and RESTful API design. My skills include designing, implementing, and maintaining RESTful APIs to ensure seamless integration and communication between services."
     },
     {
       "id": "3",
       "src": "./img/feather-pen-2.png",
       "title": "UI & UX Design",
-      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspenmdisse varius eim in eros elementum tristique"
+      "description": "Creating intuitive and engaging user experiences. My skills include using tools like Figma, Adobe XD And Adobe Photoshop to ensure design principles including typography, color theory, and layout "
     },
     {
       "id": "4",
       "src": "./img/feather-pen-1.png",
-      "title": "Webflow Development",
-      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspenmdisse varius eim in eros elementum tristique"
+      "title": "Database",
+      "description": "Database schema design, normalization, and optimization for scalability. I am experienced in writing complex SQL queries, stored procedures, and triggers.db security best practices, backup and recovery strategies."
     }
   ],
   "portfolio": [
     {
       "id": "1",
       "src": "./img/placeholder-image.png",
-      "title": "Ahuse",
-      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspenmdisse varius eim in eros elementum tristique",
+      "title": "School Managment System",
+      "description": "administrative and academic tasks in educational institutions. It manages student records, teacher schedules, and fee payments while providing parent portals for monitoring progress. Additionally, it facilitates communication among teachers, students, and parents, and automates report generation for enhanced efficiency and accuracy. ",
       "link": "View In Github"
     },
     {
       "id": "2",
       "src": "./img/placeholder-image-1.png",
-      "title": "App Dashboard",
-      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspenmdisse varius eim in eros elementum tristique",
+      "title": "University Website",
+      "description": "A digital platform that provides comprehensive information and services to students, faculty, staff, and visitors. It typically includes sections on admissions, faculty profiles, research, campus life, and events. It also serves as a communication hub, announcements and contact information, ensuring easy access to essential university-related information and services.",
       "link": "View In Github"
     },
     {
       "id": "3",
       "src": "./img/placeholder-image-2.png",
-      "title": "Easy Rentn",
-      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspenmdisse varius eim in eros elementum tristique",
+      "title": "My Portfolio",
+      "description": "A clear digital appearance of my career, activities and contacts,  My professional expertise and achievements. It typically includes an introduction, showcases of my projects, a list of your skills, contact information, This website serves as a powerful tool for presenting my capabilities and attracting opportunities in my of technology.",
       "link": "View In Github"
     }
   ],

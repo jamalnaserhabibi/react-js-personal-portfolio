@@ -34,8 +34,11 @@ function Navbar() {
 
   return (
     <nav className={`navbar ${navActive ? "active" : ""}`}>
-      <div>
-        <img src="./img/logo.svg" alt="Logoipsum" />
+      <div className="navLogo">
+        <h2>●</h2>
+        <img src="./img/jnhlogo.png" alt="Logoipsum" />
+        <h2>●</h2>
+        {/* <h2>Portfolio</h2> */}
       </div>
       <a
         className={`nav__hamburger ${navActive ? "active" : ""}`}
@@ -53,7 +56,7 @@ function Navbar() {
               activeClass="navbar--active-content"
               spy={true}
               smooth={true}
-              offset={-70}
+              // offset={40}
               duration={500}
               to="heroSection"
               className="navbar--content"
@@ -61,27 +64,14 @@ function Navbar() {
               Home
             </Link>
           </li>
+
           <li>
             <Link
               onClick={closeMenu}
               activeClass="navbar--active-content"
               spy={true}
               smooth={true}
-              offset={-70}
-              duration={500}
-              to="MyPortfolio"
-              className="navbar--content"
-            >
-              Portfolio
-            </Link>
-          </li>
-          <li>
-            <Link
-              onClick={closeMenu}
-              activeClass="navbar--active-content"
-              spy={true}
-              smooth={true}
-              offset={-70}
+              offset={90}
               duration={500}
               to="AboutMe"
               className="navbar--content"
@@ -95,12 +85,26 @@ function Navbar() {
               activeClass="navbar--active-content"
               spy={true}
               smooth={true}
-              offset={-70}
+              offset={70}
               duration={500}
-              to="testimonial"
+              to="mySkills"
               className="navbar--content"
             >
-              Testimonials
+              My Skills
+            </Link>
+          </li>
+          <li>
+            <Link
+              onClick={closeMenu}
+              activeClass="navbar--active-content"
+              spy={true}
+              smooth={true}
+              offset={30}
+              duration={500}
+              to="MyPortfolio"
+              className="navbar--content"
+            >
+              Projects
             </Link>
           </li>
         </ul>
@@ -110,9 +114,9 @@ function Navbar() {
         activeClass="navbar--active-content"
         spy={true}
         smooth={true}
-        offset={-70}
+        offset={700}
         duration={500}
-        to="Contact"
+        to="MyPortfolio"
         className="btn btn-outline-primary"
       >
         Contact Me
